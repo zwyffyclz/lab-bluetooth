@@ -24,8 +24,10 @@
     <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
 
     <!-- TODO: ADD PERMISSIONS HERE -->
-
-
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
